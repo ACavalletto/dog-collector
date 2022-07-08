@@ -1,6 +1,6 @@
 {% extends 'main_app/base.html' %}
 {% block content %}
-<h1>Delete Cat</h1>
+<h1>Delete Dog</h1>
 
 <h4>
     Are you sure you want to delete
@@ -10,6 +10,6 @@
 <form action="" method="POST">
     {% csrf_token %}
     <input type="submit" value="Yes - Delete!" class="btn"/>
-    <a href="{% url 'detail' cat.id %}"> Cancel</a>
+    <a href="{% url 'detail' Dog.id %}"> Cancel</a>
 </form>
 {% endblock %}
