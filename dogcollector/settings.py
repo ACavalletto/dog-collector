@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dog_collector.wsgi.application'
+WSGI_APPLICATION = 'dogcollector.wsgi.application'
 
 
 # Database
