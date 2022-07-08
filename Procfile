@@ -1,1 +1,1 @@
-web: gunicorn dogcollector.wsgi
+web: gunicorn dogcollector.wsgi > Procfile
